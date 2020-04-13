@@ -242,6 +242,14 @@ a:hover {
   .grid {
     width: 100%;
   }
+  
+  #page-header {
+    padding: 10px;
+  }
+
+  #page-header svg {
+    width: 90px;
+  }
 
   #hero .hero-content {
     width: auto;
