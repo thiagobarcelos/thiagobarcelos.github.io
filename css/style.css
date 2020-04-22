@@ -8,10 +8,9 @@ body {
 }
 
 .grid {
-  width: 1164px;
+  width: 940px;
   margin: auto;
   box-sizing: border-box;
-  padding: 0 20px 0 20px;
 }
 
 /****** Fonts ******/
@@ -39,7 +38,7 @@ p {
   line-height: 1.25;
   color: #FFFFFF;
 
-  padding: 10px 20px 10px 20px;
+  padding: 10px 20px;
   border: none;
   cursor: pointer;
 }
@@ -111,14 +110,20 @@ a:hover {
   padding: 20px;
   display: flex;
   justify-content: space-between;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 80px;
 }
 
 #hero {
   background: url("../images/img-sketches.jpg") center no-repeat;
+  background-size: cover;
   height: 500px;
   color: #FFF;
   display: flex;
   align-items: center;
+  margin-top: 80px;
 }
 
 #hero .hero-content {
@@ -220,6 +225,7 @@ a:hover {
 
   .grid {
     width: 768px;
+    padding: 0 20px 0 20px;
   }
 
   #form-section .input-field {
@@ -241,14 +247,19 @@ a:hover {
 
   .grid {
     width: 100%;
+    padding: 0 20px 0 20px;
   }
-  
+
   #page-header {
     padding: 10px;
   }
 
   #page-header svg {
     width: 90px;
+  }
+
+  #hero {
+    margin-top: 60px;
   }
 
   #hero .hero-content {
