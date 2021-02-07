@@ -137,7 +137,8 @@ a:hover {
   height: 640px;
   display: flex;
   align-items: center;
-  margin-top: 80px;
+  max-width: 1440px;
+  margin: 80px auto 0px auto;
 }
 
 #hero .hero-content {
@@ -193,6 +194,8 @@ a:hover {
 }
 
 #form-section {
+  max-width: 1440px;
+  margin: auto;
   background-color: #1A6CF1;
   text-align: center;
   box-sizing: border-box;
