@@ -1,6 +1,6 @@
 ########################<br>
 Arquivos referentes à aula de<br>
-Programação Front-end do IED<br>
+Design e Front-end do curso de UI Design para Web da EBAC<br>
 ########################
 
 Acesse a página de demonstração clicando <a href="http://thiagobarcelos.github.io/">aqui</a>
